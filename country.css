@@ -1,0 +1,44 @@
+h1 {
+    background-color: blue;
+    font-family: serif;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: yellow;
+  }
+  
+
+body {
+    background-image: url(cflag.jpg);
+    background-size: cover;
+    
+}
+.Box {
+  display: flex;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  text-shadow: 2px 2px  rgb(132, 136, 132);
+}
